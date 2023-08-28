@@ -3,7 +3,7 @@ import React from "react";
 import { PiShootingStarBold } from "react-icons/pi";
 
 const NavItems = ({ feedlink, comlink, asklink, shoplink, dashlink }) => {
-  const commonStyles = `hover:underline hover:text-slate-200`;
+  const commonStyles = `hover:border-b  pb-1 hover:font-semibold`;
   return (
     <ul className="text-white text-xs flex gap-4">
       <li className={commonStyles}>
@@ -27,8 +27,8 @@ const NavItems = ({ feedlink, comlink, asklink, shoplink, dashlink }) => {
 
 const NavBar = () => {
   return (
-    <div className="border py-5 px-10 bg-[#100c08]">
-      <div className="flex justify-between items-center text-white">
+    <div className="border">
+      <div className="flex justify-between items-center text-white py-5 px-10 bg-[#100c08]">
         {/* main nav contents */}
         <h1 className="text-lg font-semibold">
           <PiShootingStarBold className="inline-block text-2xl" /> Zig Forum
@@ -37,7 +37,7 @@ const NavBar = () => {
         <NavItems></NavItems>
       </div>
       {/* gradient border */}
-      <div className="h-1 bg-gradient-href-r from-sky-400 via-purple-500 href-indigo-300"></div>
+      <div className="h-1 bg-gradient-to-r from-sky-400 via-purple-500 to-indigo-300"></div>
     </div>
   );
 };

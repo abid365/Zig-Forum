@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Image from "next/image";
 import React from "react";
 import { BsChevronRight } from "react-icons/bs";
 
@@ -17,11 +18,20 @@ const Header = () => {
         <h1 className="text-center text-sm py-2 font-semibold">
           Zig Forum Discussions
         </h1>
-        <h1 className="text-5xl text-slate-800 font-bold text-center mt-8">
-          The home <br />
-          for web-dev <br />
-          communities
-        </h1>
+        <div className="relative">
+          <h1 className="text-5xl text-slate-800 font-bold text-center mt-8">
+            The home <br />
+            for web-dev <br />
+            communities
+          </h1>
+          <Image
+            className="absolute -z-20 top-14 left-48"
+            src="/squigly-line.png"
+            alt="spiral element"
+            width={100}
+            height={100}
+          ></Image>
+        </div>
         <p className="text-center text-sm my-3 py-6 px-5">
           Ask questions,share ideas and build connections with each
           <br /> other - all right next to your code. Zig Forum discussions

@@ -26,7 +26,7 @@ const Header = () => {
           </h1>
           <Image
             className="absolute -z-20 top-14 left-48"
-            src="/squigly-line.png"
+            src="/squigly-line.PNG"
             alt="spiral element"
             width={100}
             height={100}

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="bg-black text-white h-2/5">
       <div className="h-1 bg-sky-400"></div>
-      <div className="py-8 px-10 mt-3 grid grid-cols-2">
+      <div className="py-8 lg:px-10 mt-3 grid lg:grid-cols-2 sm:grid-cols-1 sm:gap-y-10 px-10">
         {/* parent div for upper footer section */}
         {/* left side */}
         <div>
@@ -20,7 +20,7 @@ const Footer = () => {
             Connect with expertise <br />
             and get reliable solutions
           </p>
-          <div className="mt-4">
+          <div className="lg:mt-4">
             <FooterItems
               li1={"Overview"}
               li2={"Features"}
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         {/* right side */}
-        <div className="lg:place-self-end">
+        <div className="lg:place-self-end w-fit">
           <h1 className="text-sm">Download the app</h1>
 
           <div className="flex gap-4">
@@ -40,7 +40,7 @@ const Footer = () => {
             <div className="border my-3 px-2 py-1 flex items-center gap-3">
               <BsGooglePlay className="inline-block text-lg" />
               <div>
-                <h1 className="text-[7px] text-right">Get the app from</h1>
+                <h1 className="text-[7px] lg:text-right">Get the app from</h1>
                 <h1 className="text-[10px]">Google Play</h1>
               </div>
             </div>

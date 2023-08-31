@@ -17,7 +17,7 @@ const FooterItems = ({
   const commonStyles = `hover:font-bold hover:underline`;
   return (
     <div>
-      <ul className="flex gap-4 items-center text-xs">
+      <ul className="flex flex-row gap-4 items-center text-xs my-5 flex-wrap">
         <li className={commonStyles}>
           <a href={{ link1 }}>{li1}</a>
         </li>

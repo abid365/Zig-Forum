@@ -28,8 +28,8 @@ const Header = () => {
             className="absolute lg:-z-20 lg:top-14 lg:left-48 top-16 left-0 -z-20 lg:block md:block hidden"
             src="/squigly-line.png"
             alt="spiral element"
-            width={80}
-            height={80}
+            width={100}
+            height={100}
           ></Image>
           <Image
             className="absolute lg:-z-20 lg:top-14 lg:left-48 top-10 left-0 -z-20 lg:hidden md:hidden"

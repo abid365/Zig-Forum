@@ -3,7 +3,10 @@ import React from "react";
 
 const Space = () => {
   return (
-    <div className="px-7 py-3 my-20">
+    <div className="px-7 py-3 my-20 relative">
+      <span className="text-4xl absolute translate-x-5 rotate-6 top-9 left-40">
+        🦋
+      </span>
       <div className="flex flex-col justify-center items-center">
         <Image
           className="my-3"
@@ -19,7 +22,8 @@ const Space = () => {
           Navigate to feed, discover hundreds of questions and <br />
           get relevant answers for each of them
         </p>
-        <div className="border border-slate-50 rounded-full bg-white">
+        <div className="border border-slate-50 rounded-full bg-white relative">
+          <span className="text-2xl absolute right-16">🐞</span>
           <Image
             className="rounded-md"
             src="/Fortune_future___Seed_Spark-removebg-preview.png"

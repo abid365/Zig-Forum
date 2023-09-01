@@ -25,7 +25,8 @@ const CommunitySection = () => {
           </div>
         </div>
         {/* 2nd grid item */}
-        <div className="border shadow-lg rounded-lg border-slate-100 bg-gradient-to-r from-amber-100 via-purple-100 to-sky-200 grid lg:grid-cols-2 grid-cols-1 gap-y-3">
+        <div className="border  rounded-lg border-slate-100 bg-gradient-to-r from-amber-100 via-purple-100 to-sky-200 grid lg:grid-cols-2 grid-cols-1 gap-y-3 relative">
+          <span className="absolute text-5xl left-48 top-24">💬</span>
           <Image
             className="rounded-l-lg"
             src="/3dAvatar.jpeg"
@@ -45,15 +46,9 @@ const CommunitySection = () => {
               We have opened this area for your contribution:
             </p>
             <ul className="text-xs my-3">
-              <li className="text-slate-700 my-4 border rounded-sm px-3 py-1 border-slate-600 w-fit">
-                JavaScript
-              </li>
-              <li className="text-slate-700 my-4 border rounded-sm px-3 py-1 border-slate-600 w-fit">
-                HTML
-              </li>
-              <li className="text-slate-700 my-4 border rounded-sm px-3 py-1 border-slate-600 w-fit">
-                CSS
-              </li>
+              <li className="text-slate-700 my-4 py-1 w-fit">🐐 JavaScript</li>
+              <li className="text-slate-700 my-4 py-1 w-fit">🦒 HTML</li>
+              <li className="text-slate-700 my-4 py-1 w-fit">🦋 CSS</li>
             </ul>
           </div>
         </div>

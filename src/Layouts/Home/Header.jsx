@@ -13,19 +13,19 @@ const Header = () => {
   const secondaryBtn = `text-xs font-semibold hover:text-slate-800 my-3`;
 
   return (
-    <div className="my-10">
-      <div className={inter.className}>
+    <div className="bg-gradient-to-r from-amber-100 via-sky-200 to-indigo-100 w-full max-h-screen border border-transparent">
+      <div className={`${inter.className} my-20`}>
         <h1 className="text-center text-sm py-2 font-semibold">
           Zig Forum Discussions
         </h1>
         <div className="relative">
           <h1 className="lg:text-5xl text-4xl text-slate-800 font-bold text-center mt-8">
-            The home <br />
-            for web-dev <br />
-            communities
+            Enhancing the Hub for
+            <br /> Web Development
+            <br /> Communities
           </h1>
           <Image
-            className="absolute lg:-z-20 lg:top-14 lg:left-48 top-16 left-0 -z-20 lg:block md:block hidden"
+            className="absolute lg:z-20 lg:top-14 lg:left-20 top-16 left-0 lg:block md:block hidden"
             src="/squigly-line.png"
             alt="spiral element"
             width={100}
@@ -39,16 +39,22 @@ const Header = () => {
             height={50}
           ></Image>
         </div>
+        {/* sub-heading for lg */}
+
         <p className="text-center lg:text-sm text-xs my-3 lg:py-6 lg:px-5 lg:block hidden">
           Ask questions,share ideas and build connections with each
           <br /> other - all right next to your code. Zig Forum discussions
           eanbles
           <br /> healthy and productive developer collaborations
         </p>
+
+        {/* sub-heading for sm */}
         <p className="text-center text-xs lg:hidden md:hidden my-3 py-3 px-2">
           Ask questions,share ideas and build connections with each other - all
           right next to your code.
         </p>
+
+        {/* buttons */}
         <div className="flex flex-col justify-center items-center">
           <button className={primaryBtn}>
             Go to Discussions{" "}
@@ -58,6 +64,8 @@ const Header = () => {
             Watch video <BsChevronRight className="inline-block font-bold" />
           </button>
         </div>
+
+        {/* stats */}
       </div>
     </div>
   );

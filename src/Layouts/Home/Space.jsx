@@ -4,9 +4,9 @@ import React from "react";
 const Space = () => {
   return (
     <div className="px-7 py-3 my-20 relative">
-      <span className="text-4xl absolute translate-x-5 rotate-6 top-9 left-40">
+      {/* <span className="text-4xl absolute translate-x-5 rotate-6 top-9 left-40">
         🦋
-      </span>
+      </span> */}
       <div className="flex flex-col justify-center items-center">
         <Image
           className="my-3"
@@ -15,7 +15,7 @@ const Space = () => {
           height={100}
           width={100}
         ></Image>
-        <h1 className="text-2xl font-semibold text-center">
+        <h1 className="text-3xl font-semibold text-center">
           Dedicated space for conversations
         </h1>
         <p className="text-xs text-center py-3">

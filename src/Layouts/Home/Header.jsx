@@ -50,8 +50,8 @@ const Header = () => {
 
         {/* sub-heading for sm */}
         <p className="text-center text-xs lg:hidden md:hidden my-3 py-3 px-2">
-          Ask questions,share ideas and build connections with each other - all
-          right next to your code.
+          Ask questions,share ideas and build connections with each
+          <br /> other - all right next to your code.
         </p>
 
         {/* buttons */}

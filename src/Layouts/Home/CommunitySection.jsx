@@ -9,10 +9,10 @@ const CommunitySection = () => {
   const commonPstyles = `w-fit px-3 py-2 rounded-md hover:bg-[#eaf4fc]`;
   return (
     <div
-      className={`${inter.className} bg-gradient-to-r from-[#EEEEFF] via-[#f6f1f4] to-[#eaf4fc] shadow-2xl py-10 rounded-lg my-16 px-7 mx-10`}
+      className={`${inter.className} bg-gradient-to-r from-[#EEEEFF] via-[#f6f1f4] to-[#eaf4fc] shadow-xl py-10 rounded-lg my-16 px-7 mx-10`}
     >
-      <h1 className="font-semibold text-3xl">
-        Get connected with <br /> diverse community
+      <h1 className="font-semibold lg:text-3xl text-2xl">
+        Get connected with diverse community
       </h1>
       <div>
         {/* 1st grid item */}
@@ -25,10 +25,9 @@ const CommunitySection = () => {
           </div>
         </div>
         {/* 2nd grid item */}
-        <div className="border  rounded-lg border-slate-100 bg-gradient-to-r from-amber-100 via-purple-100 to-sky-200 grid lg:grid-cols-2 grid-cols-1 gap-y-3 relative">
-          <span className="absolute text-5xl left-48 top-24">💬</span>
+        <div className="border  rounded-lg border-slate-100 bg-gradient-to-r from-amber-100 via-purple-100 to-sky-200 grid lg:grid-cols-2 grid-cols-1 gap-y-3">
           <Image
-            className="lg:rounded-l-lg rounded-lg w-fit"
+            className="lg:rounded-l-lg rounded-lg w-full"
             src="/3dAvatar.jpeg"
             alt="3D Avatar"
             height={300}

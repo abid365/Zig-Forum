@@ -13,7 +13,7 @@ const Header = () => {
   const secondaryBtn = `text-xs font-semibold hover:text-slate-800 my-3`;
 
   return (
-    <div className="bg-gradient-to-r from-amber-100 via-sky-200 to-indigo-100 w-full max-h-screen border border-transparent">
+    <div className="bg-gradient-to-r from-amber-100 via-sky-200 to-indigo-100 lg:w-full lg:max-h-screen w-full max-h-screen border border-transparent">
       <div className={`${inter.className} my-20`}>
         <h1 className="text-center text-sm py-2 font-semibold">
           Zig Forum Discussions

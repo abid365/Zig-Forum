@@ -13,7 +13,7 @@ const Header = () => {
   const secondaryBtn = `text-xs font-semibold hover:text-slate-800 my-3`;
 
   return (
-    <div className="bg-gradient-to-r from-amber-100 via-sky-200 to-indigo-100 lg:w-full lg:max-h-screen w-full max-h-screen border border-transparent">
+    <div className="bg-gradient-to-r from-amber-100 via-sky-200 to-indigo-100 lg:w-full lg:max-h-screen w-full min-h-screen border border-transparent">
       <div className={`${inter.className} my-20`}>
         <h1 className="text-center text-sm py-2 font-semibold">
           Zig Forum Discussions
@@ -32,11 +32,11 @@ const Header = () => {
             height={100}
           ></Image>
           <Image
-            className="absolute lg:-z-20 lg:top-14 lg:left-48 top-10 left-0 -z-20 lg:hidden md:hidden"
+            className="absolute top-96 left-40 lg:hidden md:hidden"
             src="/squigly-line.png"
             alt="spiral element"
-            width={50}
-            height={50}
+            width={100}
+            height={100}
           ></Image>
         </div>
         {/* sub-heading for lg */}

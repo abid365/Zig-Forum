@@ -18,10 +18,8 @@ const CustomSection = ({
           <h1 className="text-2xl w-3/4 font-bold my-2">{sectionHeader}</h1>
           <p className="my-4 text-sm text-slate-400">{sectionDesc}</p>
         </div>
-        <div
-          className={`${order} place-self-center p-10 border border-emerald-400`}
-        >
-          <Image src={imageURL} alt="Image" height={300} width={300}></Image>
+        <div className={`${order} place-self-center border border-emerald-400`}>
+          <Image src={imageURL} alt="Image" height={400} width={400}></Image>
         </div>
       </div>
     </div>
@@ -62,7 +60,9 @@ const Space = () => {
           sectionDesc={
             "Communicate, collaborate, and feel more connected in a persistent space that reflects your unique team culture."
           }
-          imageURL={""}
+          imageURL={
+            "https://img.freepik.com/free-photo/team-working-animation-project_23-2149269881.jpg?w=740&t=st=1693723425~exp=1693724025~hmac=15664315d9d5a91c2c4a8b3c2df2ee86f0f7d4789bb63b65043992e95f9ef96e"
+          }
         ></CustomSection>
 
         {/* SERENDIPITOUS MOMENTS */}
@@ -76,6 +76,9 @@ const Space = () => {
           sectionDesc={
             "Supercharge Your Coding Skills: Ask, Share, and Flourish with Our Dynamic Feed Feature! Join a thriving community of passionate coders, gain expert insights, and embark on a transformative coding journey filled with confidence, success, and endless learning opportunities."
           }
+          imageURL={
+            "https://img.freepik.com/free-photo/ai-site-helping-with-software-production_1268-21620.jpg?w=996&t=st=1693724371~exp=1693724971~hmac=bc92f5d4e00c6ee6859f7ef8343ed41b13e8822a4504b23d185102cd123d32f0"
+          }
         ></CustomSection>
 
         {/*Productive coversations */}
@@ -85,6 +88,9 @@ const Space = () => {
           sectionHeader={"Coding challenge made easy: collaborate and gather"}
           sectionDesc={
             "Coding Problems? Find Solutions, Share Insights, and Chart Your Learning Journey Here!, made a headline for this"
+          }
+          imageURL={
+            "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=740&t=st=1693724657~exp=1693725257~hmac=5b47743a876161c9666169a8ab8ec689d62be02ad63206e841c1ea904b5c4c97"
           }
         ></CustomSection>
       </div>

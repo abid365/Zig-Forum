@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import Image from "next/image";
 import React from "react";
 import { BsChevronRight } from "react-icons/bs";
+import { AiFillCaretDown } from "react-icons/ai";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -66,6 +67,12 @@ const Header = () => {
         </div>
 
         {/* stats */}
+        <div className="flex flex-col items-center mt-10">
+          <p className="text-[10px] text-black">
+            <AiFillCaretDown className="inline-block text-lg text-slate-800" />{" "}
+            Scroll Down
+          </p>
+        </div>
       </div>
     </div>
   );

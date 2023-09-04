@@ -18,8 +18,16 @@ const CustomSection = ({
           <h1 className="text-2xl w-3/4 font-bold my-2">{sectionHeader}</h1>
           <p className="my-4 text-sm text-slate-400">{sectionDesc}</p>
         </div>
-        <div className={`${order} place-self-center border border-emerald-400`}>
-          <Image src={imageURL} alt="Image" height={400} width={400}></Image>
+        <div
+          className={`${order} place-self-center border-2 border-emerald-400 rounded-md p-1`}
+        >
+          <Image
+            className="rounded-lg"
+            src={imageURL}
+            alt="Image"
+            height={400}
+            width={400}
+          ></Image>
         </div>
       </div>
     </div>

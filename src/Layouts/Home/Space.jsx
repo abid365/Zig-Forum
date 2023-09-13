@@ -37,7 +37,7 @@ const CustomSection = ({
 const Space = () => {
   const commonStyels = `grid lg:grid-cols-2 grid-cols-1 gap-4`;
   return (
-    <div className="px-10 py-16 relative bg-black text-white">
+    <div className="px-10 py-32 relative bg-black text-white">
       <div className="flex lg:justify-between flex-col items-center mb-10">
         {/* <Image
           className="my-3"

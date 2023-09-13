@@ -4,7 +4,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Games = () => {
   return (
-    <div className="bg-black text-white py-28 px-10">
+    <div className="bg-black text-white py-32 px-10">
       {/* parent container */}
       <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-5">
         {/* 1st child */}
@@ -47,7 +47,7 @@ const Games = () => {
             height={400}
             width={400}
           ></Image>
-          <div className="rounded-lg p-4 bg-[#171717] h-full">
+          <div className="rounded-lg p-4 bg-gradient-to-r from-emerald-400 via-pink-400 to-indigo-400 backdrop-blur-md h-full">
             <h1 className="text-md font-semibold">
               Boost your acitivity
               <Image

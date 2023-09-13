@@ -1,8 +1,8 @@
 import Ask from "@/Layouts/Home/Ask";
 import CommunitySection from "@/Layouts/Home/CommunitySection";
 import Header from "@/Layouts/Home/Header";
-import ShopHome from "@/Layouts/Home/ShopHome";
 import Space from "@/Layouts/Home/Space";
+import Games from "@/Layouts/Home/Games";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <Space></Space>
         <CommunitySection></CommunitySection>
         <Ask></Ask>
-        <ShopHome></ShopHome>
+        <Games></Games>
       </div>
     </main>
   );

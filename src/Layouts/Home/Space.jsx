@@ -19,7 +19,7 @@ const CustomSection = ({
           <p className="my-4 text-sm text-slate-400">{sectionDesc}</p>
         </div>
         <div
-          className={`${order} place-self-center border-2 border-emerald-400 rounded-md p-1`}
+          className={`${order} place-self-center border-2 border-indigo-400 rounded-md p-1`}
         >
           <Image
             className="rounded-lg"
@@ -49,8 +49,8 @@ const Space = () => {
         <span className="text-2xl absolute right-16">🐞</span>
         <h1 className="lg:text-4xl text-3xl font-semibold text-center">
           Dedicated sp
-          <span className="border-b-2 border-emerald-400">ace</span> for <br />{" "}
-          <span className="text-emerald-400">con</span>
+          <span className="border-b-2 border-indigo-400">ace</span> for <br />{" "}
+          <span className="text-indigo-400">con</span>
           versations
         </h1>
         <p className="text-[8px] text-center py-4">

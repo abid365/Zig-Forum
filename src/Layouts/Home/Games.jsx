@@ -4,11 +4,11 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Games = () => {
   return (
-    <div className="bg-black text-white py-14 px-10">
+    <div className="bg-black text-white py-28 px-10">
       {/* parent container */}
-      <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 gap-5">
+      <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-5">
         {/* 1st child */}
-        <div className="rounded-lg p-[2px] bg-gradient-to-r from-emerald-400 via-pink-400 to-sky-400 lg:col-span-2 md:col-span-2">
+        <div className="rounded-lg p-[3px] bg-gradient-to-r from-emerald-400 via-pink-400 to-sky-400 lg:col-span-2 md:col-span-2">
           <div className="p-5 bg-black rounded-lg">
             <h1 className="text-3xl font-semibold">
               Play Stunning <br /> Games
@@ -24,7 +24,7 @@ const Games = () => {
               adventure starts with a simple click—choose your game and let the
               excitement begin!
             </p>
-            <button className="my-4 border border-slate-700 px-7 py-3 rounded-md text-semibold hover:bg-[#171717]">
+            <button className="my-4 border border-[#171717] px-7 py-3 rounded-md text-semibold hover:bg-[#171717]">
               Go to Game
               <Image
                 className="inline-block mx-1"
@@ -39,7 +39,7 @@ const Games = () => {
         {/* 2nd child {group} */}
         <div className="flex flex-col gap-y-2">
           <Image
-            className="rounded-md"
+            className="rounded-lg"
             src={
               "https://cdn.dribbble.com/userupload/6308728/file/original-85fdcebbb67c6a04ea7b753b2698b29d.png?resize=1024x768"
             }
@@ -47,7 +47,7 @@ const Games = () => {
             height={400}
             width={400}
           ></Image>
-          <div className="rounded-md p-4 bg-[#171717] h-full">
+          <div className="rounded-lg p-4 bg-[#171717] h-full">
             <h1 className="text-md font-semibold">
               Boost your acitivity
               <Image
@@ -63,7 +63,7 @@ const Games = () => {
               friends and share in your social accounts
             </p>
             <button className="hover:font-bold font-semibold text-sm">
-              Play Now <BsArrowRightShort className="inline-block" />
+              Play Now <BsArrowRightShort className="inline-block text-xl" />
             </button>
           </div>
         </div>

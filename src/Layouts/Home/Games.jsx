@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { BsArrowRightShort } from "react-icons/bs";
 
 const Games = () => {
   return (
@@ -53,13 +54,17 @@ const Games = () => {
                 className="inline mx-3"
                 src={"/potion.png"}
                 alt="Potion"
-                height={25}
-                width={25}
+                height={20}
+                width={20}
               ></Image>
             </h1>
-            <p className="text-xs py-4">
-              Boost your mood with our mind triggering Games
+            <p className="text-xs py-2">
+              Boost your mood with our mind triggering Games. Play with your
+              friends and share in your social accounts
             </p>
+            <button className="hover:font-bold font-semibold text-sm">
+              Play Now <BsArrowRightShort className="inline-block" />
+            </button>
           </div>
         </div>
       </div>

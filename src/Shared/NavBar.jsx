@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { PiShootingStarBold } from "react-icons/pi";
 
-const NavItems = ({ feedlink, comlink, asklink, shoplink, dashlink }) => {
+const NavItems = ({ feedlink, comlink, asklink, Gamelink, dashlink }) => {
   const commonStyles = `hover:border-b  pb-1 hover:font-semibold`;
   return (
     <ul className="text-white text-xs flex gap-4">
@@ -16,7 +16,7 @@ const NavItems = ({ feedlink, comlink, asklink, shoplink, dashlink }) => {
         <Link href={{ asklink }}>Ask</Link>
       </li>
       <li className={commonStyles}>
-        <Link href={{ shoplink }}>Shop</Link>
+        <Link href={{ Gamelink }}>Games</Link>
       </li>
       <li className={commonStyles}>
         <Link href={{ dashlink }}>Dashboard</Link>

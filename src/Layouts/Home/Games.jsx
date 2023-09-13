@@ -4,7 +4,7 @@ import { BsArrowRightShort } from "react-icons/bs";
 
 const Games = () => {
   return (
-    <div className="bg-black text-white py-32 px-10">
+    <div className="bg-black text-white lg:py-32 py-20 px-10">
       {/* parent container */}
       <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-5">
         {/* 1st child */}
@@ -24,7 +24,7 @@ const Games = () => {
               adventure starts with a simple click—choose your game and let the
               excitement begin!
             </p>
-            <button className="my-4 border border-[#171717] px-7 py-3 rounded-md text-semibold hover:bg-[#171717]">
+            <button className="my-4 border-2 border-[#171717] px-7 py-3 rounded-md text-semibold hover:bg-[#171717]">
               Go to Game
               <Image
                 className="inline-block mx-1"

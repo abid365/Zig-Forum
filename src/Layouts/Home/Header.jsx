@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <div className="bg-gradient-to-r from-amber-100 via-sky-200 to-indigo-100 lg:w-full lg:max-h-screen w-full min-h-screen border border-transparent">
-      <div className={`${inter.className} my-20`}>
+      <div className={`${inter.className} lg:my-20 my-10`}>
         <h1 className="text-center text-sm py-2 font-semibold">
           Zig Forum Discussions
         </h1>

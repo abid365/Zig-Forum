@@ -37,7 +37,7 @@ const CustomSection = ({
 const Space = () => {
   const commonStyels = `grid lg:grid-cols-2 grid-cols-1 gap-4`;
   return (
-    <div className="px-10 py-32 relative bg-black text-white">
+    <div className="px-10 lg:py-32 py-20 bg-black text-white">
       <div className="flex lg:justify-between flex-col items-center mb-10">
         {/* <Image
           className="my-3"
@@ -46,7 +46,6 @@ const Space = () => {
           height={100}
           width={100}
         ></Image> */}
-        <span className="text-2xl absolute right-16">🐞</span>
         <h1 className="lg:text-4xl text-3xl font-semibold text-center">
           Dedicated sp
           <span className="border-b-2 border-indigo-400">ace</span> for <br />{" "}

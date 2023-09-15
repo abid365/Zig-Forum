@@ -1,3 +1,5 @@
+import Servers from "@/components/Servers";
+import { dcServers } from "@/constants";
 import { Inter, Roboto } from "next/font/google";
 import Image from "next/image";
 import React from "react";
@@ -11,6 +13,9 @@ const CommunitySection = () => {
       <h1 className="text-3xl font-semibold text-center">
         Get in touch with diverse <br /> community 🏁
       </h1>
+      {dcServers.map((item, index) => (
+        <Servers key={index} item={item}></Servers>
+      ))}
     </div>
   );
 };

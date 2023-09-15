@@ -75,7 +75,7 @@ const Games = () => {
       </div>
       <div className="flex justify-center rounded-full mb-5">
         <Image
-          className="bg-white rounded-full"
+          className="bg-gradient-to-t from-amber-100 via-orange-200 to-red-300 rounded-full"
           src={"/spades.png"}
           height={50}
           width={50}

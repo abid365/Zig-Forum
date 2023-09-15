@@ -10,11 +10,11 @@ const roboto = Roboto({ subsets: ["cyrillic"], weight: ["400", "700"] });
 const CommunitySection = () => {
   return (
     <div className="bg-[#0f0f0f] py-20 text-white px-10">
-      <h1 className="text-3xl font-semibold text-center">
+      <h1 className="lg:text-3xl text-2xl font-semibold text-center">
         Get in touch with diverse <br /> community 🏁
       </h1>
       {dcServers.map((item, index) => (
-        <Servers key={index} item={item}></Servers>
+        <Servers key={index} {...item}></Servers>
       ))}
     </div>
   );

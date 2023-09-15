@@ -1,4 +1,3 @@
-import Ask from "@/Layouts/Home/Ask";
 import CommunitySection from "@/Layouts/Home/CommunitySection";
 import Header from "@/Layouts/Home/Header";
 import Space from "@/Layouts/Home/Space";
@@ -14,7 +13,6 @@ export default function Home() {
         <Partners></Partners>
         <Games></Games>
         <CommunitySection></CommunitySection>
-        <Ask></Ask>
       </div>
     </main>
   );

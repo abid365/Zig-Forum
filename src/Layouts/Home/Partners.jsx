@@ -2,7 +2,6 @@ import React from "react";
 import { FaStarOfLife, FaAtlassian } from "react-icons/fa";
 import { BsGoogle, BsDiscord } from "react-icons/bs";
 import { SiNasa } from "react-icons/si";
-import Marquee from "react-fast-marquee";
 
 const commonStyles = `flex items-center gap-1 text-xl`;
 

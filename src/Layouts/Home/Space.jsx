@@ -16,7 +16,9 @@ const CustomSection = ({
         <div>
           <h1 className="my-10 font-semibold text-sm">{headerText}</h1>
           <h1 className="text-2xl w-3/4 font-bold my-2">{sectionHeader}</h1>
-          <p className="my-4 text-sm text-slate-400">{sectionDesc}</p>
+          <p className="my-4 text-sm text-slate-400 text-justify">
+            {sectionDesc}
+          </p>
         </div>
         <div
           className={`${order} place-self-center border-2 border-indigo-400 rounded-md p-1`}

@@ -16,14 +16,14 @@ const CommunitySection = () => {
       </div>
       <div className="py-10">
         <h1
-          className={`lg:text-3xl text-3xl font-semibold ${inter.className} tracking-tight`}
+          className={`lg:text-4xl text-3xl font-semibold text-center ${inter.className} tracking-tight`}
         >
           Get in touch with diverse <br />
           <BiLogoDiscord className="inline text-4xl" />
           community
         </h1>
       </div>
-      <div className="grid grid-cols-4 gap-3 mt-10">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1` gap-3 mt-10">
         {dcServers.map((item, index) => (
           <Servers key={index} {...item}></Servers>
         ))}

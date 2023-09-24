@@ -13,9 +13,11 @@ const CommunitySection = () => {
       <h1 className="lg:text-3xl text-2xl font-semibold text-center">
         Get in touch with diverse <br /> community 🏁
       </h1>
-      {dcServers.map((item, index) => (
-        <Servers key={index} {...item}></Servers>
-      ))}
+      <div className="grid grid-cols-4 place-items-center mt-20">
+        {dcServers.map((item, index) => (
+          <Servers key={index} {...item}></Servers>
+        ))}
+      </div>
     </div>
   );
 };

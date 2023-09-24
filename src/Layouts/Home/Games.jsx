@@ -12,12 +12,12 @@ const Games = () => {
       <div className="py-lg:32 py-20">
         <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-5">
           {/* 1st child */}
-          <div className="rounded-lg p-[3px] bg-gradient-to-r from-emerald-400 via-pink-400 to-sky-400 lg:col-span-2 md:col-span-2">
-            <div className="p-5 bg-black rounded-lg">
+          <div className="rounded-lg p-1 bg-gradient-to-r from-emerald-400 via-pink-400 to-sky-400 lg:col-span-2 md:col-span-2">
+            <div className="p-5 bg-black rounded-lg h-full">
               <h1 className="text-2xl font-semibold">
                 Play Stunning <br /> Games
               </h1>
-              <p className="text-sm py-4">
+              <p className="text-sm py-4 text-justify">
                 Get ready for an exhilarating gaming experience! In our Play
                 Stunning Games section, youll find a carefully curated selection
                 of games that promise hours of excitement. Whether youre a
@@ -28,10 +28,10 @@ const Games = () => {
                 Your adventure starts with a simple click—choose your game and
                 let the excitement begin!
               </p>
-              <button className="my-4 border-2 border-[#171717] px-7 py-3 rounded-md text-semibold hover:bg-[#171717] animate-pulse">
+              <button className="my-4 border-2 bg-indigo-400 border-[#171717] px-7 py-3 rounded-md text-semibold hover:bg-indigo-500">
                 Go to Game
                 <Image
-                  className="inline-block mx-1"
+                  className="inline-block mx-1 animate-pulse"
                   src={"/slash.png"}
                   alt="Slashing sword"
                   height={20}
@@ -51,29 +51,35 @@ const Games = () => {
               height={400}
               width={400}
             ></Image>
-            <div className="rounded-lg py-2 px-4 bg-gradient-to-r from-emerald-400 via-pink-400 to-indigo-400 backdrop-blur-md h-full">
-              <h1 className="text-md font-semibold">
-                Boost your acitivity
-                <Image
-                  className="inline mx-3"
-                  src={"/potion.png"}
-                  alt="Potion"
-                  height={20}
-                  width={20}
-                ></Image>
-              </h1>
-              <p className="text-xs py-2">
-                Boost your mood with our mind triggering Games. Play with your
-                friends and share in your social accounts
-              </p>
-              <button className="hover:font-bold font-semibold text-sm">
-                Play Now <BsArrowRightShort className="inline-block text-xl" />
-              </button>
+
+            {/* outer div to create gradient */}
+            <div className="rounded-lg p-1 bg-gradient-to-l from-emerald-400 via-pink-400 to-sky-400 backdrop-blur-md h-full text-slate-700">
+              {/* inner div */}
+              <div className="bg-black p-4 text-white rounded-md">
+                <h1 className="text-md font-semibold">
+                  Spark your acitivity
+                  <Image
+                    className="inline mx-3"
+                    src={"/potion.png"}
+                    alt="Potion"
+                    height={20}
+                    width={20}
+                  ></Image>
+                </h1>
+                <p className="text-xs py-2 font-semibold text-justify">
+                  Boost your mood with our mind triggering Games. Play with your
+                  friends and share in your social accounts
+                </p>
+                <button className="hover:font-bold font-semibold text-sm">
+                  Play Now{" "}
+                  <BsArrowRightShort className="inline-block text-xl" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex justify-center rounded-full mb-5">
+      {/* <div className="flex justify-center rounded-full mb-5">
         <Image
           className="bg-gradient-to-t from-amber-100 via-orange-200 to-red-300 rounded-full"
           src={"/spades.png"}
@@ -81,7 +87,7 @@ const Games = () => {
           width={50}
           alt="Spade"
         ></Image>
-      </div>
+      </div> */}
     </div>
   );
 };
